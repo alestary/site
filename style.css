@@ -1071,7 +1071,7 @@ a {
   border-color: #ff1493;
 }
 
-@media (max-width: 1024px), (min-width: 768px) {
+@media (max-width: 1024px) {
   .center {
     padding-left: 24px;
     padding-right: 24px;
