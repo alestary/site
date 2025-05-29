@@ -112,7 +112,7 @@
 .filtering-form {
     position: absolute;
     top: calc(100% + 14px);
-    width: 445.5048828125px;
+    width: 446px;
     height: 468px;
     right: 0;
     display: flex;
@@ -163,7 +163,6 @@
         flex-direction: column;
         justify-content: center;
         gap: 16px;
-        padding-left: 18px;
         border: none;
         &--type {
             padding-right: 40px;
