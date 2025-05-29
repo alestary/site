@@ -124,11 +124,28 @@
         padding-bottom: 8px;
     }
     .filtering-form {
-        display: none;
+        left: 0;
+        width: 190.5px;
+        height: 830px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        &__content {
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+            }
+        }
+        &__button {
+            align-self: start;
+            margin-top: 32px;
+        }
+
     }
     .filters {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .for {
         &__title {

@@ -58,6 +58,7 @@ a {
 }
 
 .header__input {
+  font-family: "Montserrat", sans-serif;
   width: 288px;
   height: 41px;
   border: 1px solid #FFFFFF;
@@ -347,7 +348,7 @@ a {
   border: 1px solid #C4C4C4;
   box-sizing: border-box;
   border-radius: 16px;
-  font-weight: 260px;
+  width: 260px;
   height: 40px;
   font-size: 15px;
   line-height: 18px;
@@ -397,7 +398,8 @@ a {
   height: 207px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 32px;
+  align-items: flex-start;
 }
 
 .footer__content {
@@ -763,7 +765,7 @@ a {
 .filtering-form {
   position: absolute;
   top: calc(100% + 14px);
-  width: 445.5048828125px;
+  width: 446px;
   height: 468px;
   right: 0;
   display: flex;
@@ -815,7 +817,6 @@ a {
   flex-direction: column;
   justify-content: center;
   gap: 16px;
-  padding-left: 18px;
   border: none;
 }
 .filtering-form__box--type {
@@ -1099,7 +1100,8 @@ a {
     display: none;
   }
   .filtering-form {
-    display: none;
+    width: 541.5px;
+    height: 548px;
   }
   .container {
     padding-bottom: 0px;
@@ -1241,11 +1243,25 @@ a {
     padding-bottom: 8px;
   }
   .filtering-form {
-    display: none;
+    left: 0;
+    width: 190.5px;
+    height: 830px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .filtering-form__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .filtering-form__button {
+    align-self: start;
+    margin-top: 32px;
   }
   .filters {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .for__title {
     font-size: 24px;

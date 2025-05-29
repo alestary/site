@@ -49,6 +49,7 @@ a {
     gap: 32px;
 }
 .header__input {
+    font-family: "Montserrat", sans-serif;
     width: 288px;
     height: 41px;
     border: 1px solid #FFFFFF;
@@ -307,7 +308,7 @@ a {
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 16px;
-    font-weight: 260px;
+    width: 260px;
     height: 40px;
     font-size: 15px;
     line-height: 18px;
@@ -346,7 +347,8 @@ a {
     height: 207px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 32px;
+    align-items: flex-start;
 }
 .footer__content {
     width: 792px;
