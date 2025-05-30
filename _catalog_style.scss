@@ -26,6 +26,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: 64px;
+    margin-bottom: 0%;
 }
 .filters {
     display: flex;
@@ -374,6 +375,11 @@
         &-violet { background-color: #8a2be2; border-color: #8a2be2; }
         &-lavender { background-color: #d89aff; border-color: #d89aff; }
         &-pink { background-color: #ff1493; border-color: #ff1493; }
+    }
+}
+.product {
+    &__content {
+        padding-top: 0%;
     }
 }
   

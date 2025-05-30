@@ -19,7 +19,7 @@
     }
     .product {
         &__content {
-            padding-top: 0%;
+            padding-top: 0;
             grid-template-columns: repeat(6, 1fr);
         }
         &__article {
@@ -36,7 +36,7 @@
         height: 548px;
     }
     .container {
-        padding-bottom: 0px;
+        padding-bottom: 0;
     }
     .cart {
         grid-template-columns: repeat(4, 1fr);

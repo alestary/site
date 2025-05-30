@@ -130,16 +130,25 @@
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
+                &__fieldset {
+            max-width: 200px;
+        }
+        &__box {
+            max-width: 200px;
+        }
         &__content {
             &-wrapper {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: nowrap;
+                max-width: 200px;
+                min-width: 0px;
+                gap: 32px 0px;
             }
         }
         &__button {
             align-self: start;
-            margin-top: 32px;
+            margin-bottom: 0px;
         }
 
     }
